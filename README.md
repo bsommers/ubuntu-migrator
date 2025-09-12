@@ -42,8 +42,8 @@ This will create a file named installed_packages.list in your current directory.
 With installed_packages.list in the same directory, make the script executable and run it:
 
 ```bash
-chmod +x install_packages.py
-./install_packages.py
+chmod +x ubuntu-package-installer.py
+./ubuntu-package-installer.py
 ```
 
 The script will check for root privileges and re-launch with sudo if necessary, prompting for your password. The terminal user interface (TUI) will then launch.
